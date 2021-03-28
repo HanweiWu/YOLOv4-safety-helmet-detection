@@ -1,0 +1,25 @@
+cfg: models/yolov5s.yaml
+data: ./data/custom_data.yaml
+hyp: ''
+epochs: 10
+batch_size: 16
+img_size:
+- 640
+- 640
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: false
+evolve: false
+bucket: ''
+cache_images: false
+weights: yolov5s.pt
+name: ''
+device: ''
+multi_scale: false
+single_cls: false
+sync_bn: false
+local_rank: -1
+total_batch_size: 16
+world_size: 1
